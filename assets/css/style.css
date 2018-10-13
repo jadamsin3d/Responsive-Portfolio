@@ -70,10 +70,9 @@ li {
 
 .NaviBar {
     float: right;
-    margin-right: 10px;
     color: #777777;
-    align-self: center;
     padding-top: 15px;
+    padding-right: 10px;
 }
 
 .AboutMeSection {
@@ -180,8 +179,7 @@ a:active {
 }
 
 .portfoliosection {
-    width: 938px;   
-    /* align-items: center; */
+    width: 938px; 
     background-color: #ffffff;
     margin: 30px auto;
     padding: 5px 10px;
@@ -252,4 +250,304 @@ a:active {
 
 .picsize {
     width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    .AboutMeSection {
+        width: 600px;
+        position: Absolute;
+        top: 60px;
+        left: 40px;
+    }
+    
+    .portfoliosection {
+        width: 600px;
+        position: absolute;
+        top: 60px;
+        left: 40px;
+    }
+
+    .hangdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 200px;
+        margin: 5px;
+    }
+    
+    .rpgdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 200px;
+        margin: 5px;
+    }
+    
+    .triviadiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 200px;
+        margin: 5px;
+    }
+        
+    .rutgersdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 200px;
+        margin: 5px;
+    }
+    
+    .rpsdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 200px;
+        margin: 5px;
+    }
+
+    .projecttitle {
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    .ContactMeDiv {
+        width: 600px;
+        position: absolute;
+        top: 60px;
+        left: 40px;
+    }
+
+    .ContactStyle {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {    
+    body {
+        width: 768px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .AboutMeSection {
+        width: 650px;
+        top: 110px;
+        margin: 20px 30px 60px 10px; 
+
+    }
+    
+    .portfoliosection {
+        width: 650px;
+        top: 110px;
+        margin: 20px 30px 60px 10px; 
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .HeaderName {
+        padding: 40px 10px;
+    }
+
+    .copyright {
+        padding: 15px;
+    }
+
+    .Navibar {
+        padding-top: 40px;  
+    }
+
+    .hangdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 300px;
+        margin: 5px;
+    }
+    
+    .rpgdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 300px;
+        margin: 5px;
+    }
+    
+    .triviadiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 300px;
+        margin: 5px;
+    }
+        
+    .rutgersdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 300px;
+        margin: 5px;
+    }
+    
+    .rpsdiv {
+        position: relative;
+        display: inline-block;
+        float: left;
+        width: 300px;
+        margin: 5px;
+    }
+
+    .projecttitle {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 40px 0px;
+        background-color: #4aaaa5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        z-index: 1;
+        left: 0;
+        top: 45%;
+        font-weight: bold;
+    }
+
+    .ContactMeDiv {
+        width: 650px;
+        top: 110px;
+        margin: 20px 30px 60px 10px; 
+    }    
+
+    .HeaderName {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .TopHeader {
+        background-color: #ffffff;
+        width: 100%;
+        border-bottom: 3px #cccccc solid;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .HeaderName {
+        background-scolor: #4AAAA5;
+        color: #ffffff;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: inline-block;
+        padding: 20px 0px;
+    }
+
+    li {
+        display: inline-block;
+    }
+    
+    .NaviBar {
+        color: #777777;
+        display: block;
+        background-color: #ffffff;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        list-style: none;
+        height: 30px;
+        padding-top: 10px;
+        }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .AboutMeSection {
+        width: 85%;
+        top: 120px;
+        margin: 20px 30px 60px 60px;
+    }
+
+    ul {
+        background-color: #4aaaa5;
+        width: 100%;
+    }
+
+    .hangdiv {
+        position: relative;
+        display: block;
+        width: 500px;
+        margin: 5px;
+    }
+    
+    .rpgdiv {
+        position: relative;
+        display: block;
+        width: 500px;
+        margin: 5px;
+    }
+    
+    .triviadiv {
+        position: relative;
+        display: block;
+        width: 500px;
+        margin: 5px;
+    }
+        
+    .rutgersdiv {
+        position: relative;
+        display: block;
+        width: 500px;
+        margin: 5px;
+    }
+    
+    .rpsdiv {
+        position: relative;
+        display: block;
+        width: 500px;
+        margin: 5px;
+    }
+
+    .GalleryClass {
+        margin: 8px 10%;
+    }
+
+    .copyright {
+        padding: 15px;
+    }
+
+    .portfoliosection {
+        width: 600px;
+        top: 110px;
+        margin: 20px 30px 60px 30px; 
+    }
+
+    .projecttitle {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 40px 0px;
+        background-color: #4aaaa5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        z-index: 1;
+        left: 0;
+        top: 45%;
+        font-weight: bold;
+    }
 }
